@@ -1,0 +1,53 @@
+{
+  "name": "yuncms/yuncms",
+  "description": "Yuncms Advanced Project Template",
+  "keywords": [
+    "yuncms",
+    "Yii 2",
+    "framework",
+    "advanced",
+    "project template"
+  ],
+  "homepage": "http://www.yuncms.net/",
+  "type": "project",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/yuncms/yuncms-app-advanced/issues?state=open",
+    "source": "https://github.com/yuncms/yuncms-app-advanced"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0",
+    "yuncms/framework": "1.0.x-dev",
+    "vlucas/phpdotenv": "^2.4.0",
+    "yuncms/mq-aliyun": "~1.0",
+    "yuncms/mq-qcloud": "~1.0",
+    "xutl/yii2-aliyun": "~2.0",
+    "xutl/yii2-back-to-top-widget": "~1.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2-gii": "~2.0.0",
+    "yiisoft/yii2-debug": "~2.0.0",
+    "league/flysystem-cached-adapter": "~1.0",
+    "league/flysystem-ziparchive": "~1.0",
+    "xxtime/flysystem-aliyun-oss": "~1.2",
+    "overtrue/flysystem-qiniu": "~1.0",
+    "jellybool/flysystem-upyun": "~1.0",
+    "freyo/flysystem-qcloud-cos-v4": "~2.0",
+    "freyo/flysystem-qcloud-cos-v5": "~1.0",
+    "jpush/jpush": "~3.5.34"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "preferred-install": "dist",
+    "optimize-autoloader": true,
+    "autoloader-suffix": "_yuncms",
+    "notify-on-install": false
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.lezhisoft.cn/"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 {
+  "private": true,
   "name": "yuncms",
   "version": "0.0.1",
+  "license": "LGPL-3.0",
   "dependencies": {
     "grunt": "latest",
     "grunt-cli": "latest",

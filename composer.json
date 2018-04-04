@@ -12,10 +12,10 @@
   "type": "project",
   "license": "LGPL-3.0",
   "support": {
-    "issues": "https://github.com/yuncms/yuncms-app-advanced/issues?state=open",
-    "source": "https://github.com/yuncms/yuncms-app-advanced"
+    "issues": "https://github.com/yuncms/yuncms/issues?state=open",
+    "source": "https://github.com/yuncms/yuncms"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=7.1.0",
     "yuncms/framework": "~1.0.0"
@@ -24,17 +24,20 @@
     "yiisoft/yii2-debug": "~2.0.0",
     "yiisoft/yii2-gii": "~2.0.0",
     "yiisoft/yii2-faker": "~2.0.0",
-    "codeception/base": "^2.2.3",
-    "codeception/verify": "~0.3.1",
+    "codeception/codeception": "^2.4.0",
     "yuncms/mq-aliyun": "~1.0",
     "yuncms/mq-qcloud": "~1.0"
   },
   "config": {
     "process-timeout": 1800,
-    "preferred-install": "dist",
     "optimize-autoloader": true,
     "autoloader-suffix": "_yuncms",
-    "notify-on-install": false
+    "notify-on-install": false,
+    "preferred-install": {
+      "xutl/*": "source",
+      "yuncms/*": "source",
+      "*": "dist"
+    }
   },
   "repositories": [
     {

@@ -10,7 +10,7 @@
   ],
   "homepage": "http://www.yuncms.net/",
   "type": "project",
-  "license": "MIT",
+  "license": "LGPL-3.0",
   "support": {
     "issues": "https://github.com/yuncms/yuncms-app-advanced/issues?state=open",
     "source": "https://github.com/yuncms/yuncms-app-advanced"

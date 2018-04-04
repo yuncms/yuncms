@@ -1,0 +1,16 @@
+{
+  "name": "sixiang",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-postcss": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "autoprefixer": "^7.1.4",
+    "newman": "~3.9.3"
+  }
+}
